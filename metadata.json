@@ -1,0 +1,5 @@
+{
+  "name": "Topper AI Guru 🏆",
+  "description": "Padho Smart, Bano Topper 🚀 AI-powered personal teacher for kids with voice interaction, daily study plans, and progress tracking.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"]
+}
