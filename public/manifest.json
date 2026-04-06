@@ -1,0 +1,17 @@
+{
+  "name": "Topper AI Guru 🏆",
+  "short_name": "TopperAI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#6366f1",
+  "theme_color": "#6366f1",
+  "description": "Padho Smart, Bano Topper 🚀 Aapka personal AI teacher!",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
