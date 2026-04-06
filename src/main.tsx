@@ -1,13 +1,19 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './App.tsx';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
 
-// Note: Agar aapne i18n setup kiya hai toh ise uncomment karein
-// import './i18n';
+// अगर future में routing use करना हो तो HashRouter add कर सकते हैं
+// अभी basic run के लिए simple रख रहे हैं
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+const rootElement = document.getElementById("root");
+
+if (!rootElement) {
+  throw new Error("Root element not found");
+}
+
+ReactDOM.createRoot(rootElement).render(
+  <React.StrictMode>
     <App />
-  </StrictMode>,
+  </React.StrictMode>
 );
